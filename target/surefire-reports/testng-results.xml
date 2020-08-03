@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="20" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="196807" started-at="2020-07-22T20:21:51Z" finished-at="2020-07-22T20:25:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="196807" started-at="2020-07-22T20:21:51Z" finished-at="2020-07-22T20:25:08Z">
+      <class name="nopCommerceTestNG.qa.testcases.ProductTagsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.ProductTagsPageTest@4b9e13df]" name="setUp" is-config="true" duration-ms="11056" started-at="2020-07-22T20:24:30Z" finished-at="2020-07-22T20:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productTagsPageTitleTest()[pri:1, instance:nopCommerceTestNG.qa.testcases.ProductTagsPageTest@4b9e13df]" name="productTagsPageTitleTest" duration-ms="9" started-at="2020-07-22T20:24:42Z" finished-at="2020-07-22T20:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTagsPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.ProductTagsPageTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="862" started-at="2020-07-22T20:24:42Z" finished-at="2020-07-22T20:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.ProductTagsPageTest -->
+      <class name="nopCommerceTestNG.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.LoginPageTest@29ee9faa]" name="setUp" is-config="true" duration-ms="6182" started-at="2020-07-22T20:23:38Z" finished-at="2020-07-22T20:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitle()[pri:1, instance:nopCommerceTestNG.qa.testcases.LoginPageTest@29ee9faa]" name="loginPageTitle" duration-ms="8" started-at="2020-07-22T20:23:44Z" finished-at="2020-07-22T20:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.LoginPageTest@29ee9faa]" name="tearDown" is-config="true" duration-ms="710" started-at="2020-07-22T20:23:44Z" finished-at="2020-07-22T20:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.LoginPageTest -->
+      <class name="nopCommerceTestNG.qa.testcases.CategoriesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.CategoriesPageTest@cc285f4]" name="setUp" is-config="true" duration-ms="10477" started-at="2020-07-22T20:24:08Z" finished-at="2020-07-22T20:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchAllCategoriesTest()[pri:1, instance:nopCommerceTestNG.qa.testcases.CategoriesPageTest@cc285f4]" name="searchAllCategoriesTest" duration-ms="272" started-at="2020-07-22T20:24:18Z" finished-at="2020-07-22T20:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAllCategoriesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.CategoriesPageTest@cc285f4]" name="tearDown" is-config="true" duration-ms="734" started-at="2020-07-22T20:24:19Z" finished-at="2020-07-22T20:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.CategoriesPageTest -->
+      <class name="nopCommerceTestNG.qa.testcases.SpecAttributesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.SpecAttributesPageTest@2b98378d]" name="setUp" is-config="true" duration-ms="11781" started-at="2020-07-22T20:24:55Z" finished-at="2020-07-22T20:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SpecAttributesPageTitleTest()[pri:1, instance:nopCommerceTestNG.qa.testcases.SpecAttributesPageTest@2b98378d]" name="SpecAttributesPageTitleTest" duration-ms="9" started-at="2020-07-22T20:25:07Z" finished-at="2020-07-22T20:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpecAttributesPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.SpecAttributesPageTest@2b98378d]" name="tearDown" is-config="true" duration-ms="829" started-at="2020-07-22T20:25:07Z" finished-at="2020-07-22T20:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.SpecAttributesPageTest -->
+      <class name="nopCommerceTestNG.qa.testcases.ManufacturersPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:nopCommerceTestNG.qa.testcases.ManufacturersPageTest@55f3ddb1]" name="setup" is-config="true" duration-ms="10879" started-at="2020-07-22T20:24:19Z" finished-at="2020-07-22T20:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchPublishedOnlyTest()[pri:1, instance:nopCommerceTestNG.qa.testcases.ManufacturersPageTest@55f3ddb1]" name="searchPublishedOnlyTest" duration-ms="223" started-at="2020-07-22T20:24:30Z" finished-at="2020-07-22T20:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPublishedOnlyTest -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.ManufacturersPageTest -->
+      <class name="nopCommerceTestNG.qa.testcases.ProductsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.ProductsPageTest@c038203]" name="setUp" is-config="true" duration-ms="10382" started-at="2020-07-22T20:23:57Z" finished-at="2020-07-22T20:24:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productsPageTitleTest()[pri:1, instance:nopCommerceTestNG.qa.testcases.ProductsPageTest@c038203]" name="productsPageTitleTest" duration-ms="8" started-at="2020-07-22T20:24:07Z" finished-at="2020-07-22T20:24:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.ProductsPageTest@c038203]" name="tearDown" is-config="true" duration-ms="805" started-at="2020-07-22T20:24:07Z" finished-at="2020-07-22T20:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.ProductsPageTest -->
+      <class name="nopCommerceTestNG.qa.testcases.ProductReviewsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.ProductReviewsPageTest@cb5822]" name="setUp" is-config="true" duration-ms="10391" started-at="2020-07-22T20:23:45Z" finished-at="2020-07-22T20:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProductReviewsTest()[pri:1, instance:nopCommerceTestNG.qa.testcases.ProductReviewsPageTest@cb5822]" name="searchProductReviewsTest" duration-ms="338" started-at="2020-07-22T20:23:56Z" finished-at="2020-07-22T20:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductReviewsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.ProductReviewsPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="814" started-at="2020-07-22T20:23:56Z" finished-at="2020-07-22T20:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.ProductReviewsPageTest -->
+      <class name="nopCommerceTestNG.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="11303" started-at="2020-07-22T20:21:51Z" finished-at="2020-07-22T20:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cickHelpTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="cickHelpTest" duration-ms="61" started-at="2020-07-22T20:22:03Z" finished-at="2020-07-22T20:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cickHelpTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="846" started-at="2020-07-22T20:22:03Z" finished-at="2020-07-22T20:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="9809" started-at="2020-07-22T20:22:04Z" finished-at="2020-07-22T20:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickCatalogTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="clickCatalogTest" duration-ms="135" started-at="2020-07-22T20:22:13Z" finished-at="2020-07-22T20:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCatalogTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="824" started-at="2020-07-22T20:22:14Z" finished-at="2020-07-22T20:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="9426" started-at="2020-07-22T20:22:14Z" finished-at="2020-07-22T20:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickCmanagementTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="clickCmanagementTest" duration-ms="165" started-at="2020-07-22T20:22:24Z" finished-at="2020-07-22T20:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCmanagementTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="868" started-at="2020-07-22T20:22:24Z" finished-at="2020-07-22T20:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="10212" started-at="2020-07-22T20:22:25Z" finished-at="2020-07-22T20:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickConfiguratioinsTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="clickConfiguratioinsTest" duration-ms="282" started-at="2020-07-22T20:22:35Z" finished-at="2020-07-22T20:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickConfiguratioinsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="787" started-at="2020-07-22T20:22:35Z" finished-at="2020-07-22T20:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="9235" started-at="2020-07-22T20:22:36Z" finished-at="2020-07-22T20:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickCustomersTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="clickCustomersTest" duration-ms="74" started-at="2020-07-22T20:22:45Z" finished-at="2020-07-22T20:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="764" started-at="2020-07-22T20:22:45Z" finished-at="2020-07-22T20:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="9564" started-at="2020-07-22T20:22:46Z" finished-at="2020-07-22T20:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickPromotionsTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="clickPromotionsTest" duration-ms="131" started-at="2020-07-22T20:22:56Z" finished-at="2020-07-22T20:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPromotionsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="820" started-at="2020-07-22T20:22:56Z" finished-at="2020-07-22T20:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="8328" started-at="2020-07-22T20:22:57Z" finished-at="2020-07-22T20:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickReportsTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="clickReportsTest" duration-ms="137" started-at="2020-07-22T20:23:05Z" finished-at="2020-07-22T20:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReportsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="761" started-at="2020-07-22T20:23:05Z" finished-at="2020-07-22T20:23:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="9641" started-at="2020-07-22T20:23:06Z" finished-at="2020-07-22T20:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickSalesTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="clickSalesTest" duration-ms="193" started-at="2020-07-22T20:23:16Z" finished-at="2020-07-22T20:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSalesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="914" started-at="2020-07-22T20:23:16Z" finished-at="2020-07-22T20:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="8565" started-at="2020-07-22T20:23:17Z" finished-at="2020-07-22T20:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickSystemTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="clickSystemTest" duration-ms="288" started-at="2020-07-22T20:23:25Z" finished-at="2020-07-22T20:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSystemTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="834" started-at="2020-07-22T20:23:26Z" finished-at="2020-07-22T20:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="setUp" is-config="true" duration-ms="10281" started-at="2020-07-22T20:23:26Z" finished-at="2020-07-22T20:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="homePageTitleTest" duration-ms="56" started-at="2020-07-22T20:23:37Z" finished-at="2020-07-22T20:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.HomePageTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1538" started-at="2020-07-22T20:23:37Z" finished-at="2020-07-22T20:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.HomePageTest -->
+      <class name="nopCommerceTestNG.qa.testcases.AttributesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nopCommerceTestNG.qa.testcases.AttributesPageTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="12139" started-at="2020-07-22T20:24:42Z" finished-at="2020-07-22T20:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="attributesPageTitleTest()[pri:1, instance:nopCommerceTestNG.qa.testcases.AttributesPageTest@8bd1b6a]" name="attributesPageTitleTest" duration-ms="6" started-at="2020-07-22T20:24:55Z" finished-at="2020-07-22T20:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attributesPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:nopCommerceTestNG.qa.testcases.AttributesPageTest@8bd1b6a]" name="tearDown" is-config="true" duration-ms="807" started-at="2020-07-22T20:24:55Z" finished-at="2020-07-22T20:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- nopCommerceTestNG.qa.testcases.AttributesPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

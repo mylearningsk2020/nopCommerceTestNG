@@ -1,0 +1,11 @@
+nopCommerceTestNG\qa\testcases\ProductReviewsPageTest.class
+nopCommerceTestNG\qa\testcases\CategoriesPageTest.class
+nopCommerceTestNG\qa\testcases\ProductTagsPageTest.class
+nopCommerceTestNG\qa\testcases\LoginPageTest.class
+nopCommerceTestNG\qa\testcases\AddNewAttributePageTest.class
+nopCommerceTestNG\qa\testcases\AttributesPageTest.class
+nopCommerceTestNG\qa\testcases\SpecAttributesPageTest.class
+nopCommerceTestNG\qa\testcases\ProductsPageTest.class
+nopCommerceTestNG\qa\testcases\HomePageTest.class
+nopCommerceTestNG\qa\testcases\ManufacturersPageTest.class
+nopCommerceTestNG\qa\testcases\SearchCustomersTest.class

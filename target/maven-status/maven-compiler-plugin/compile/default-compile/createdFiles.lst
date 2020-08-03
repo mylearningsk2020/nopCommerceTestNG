@@ -1,0 +1,17 @@
+com\nopCommerce\qa\pages\SearchCustomers.class
+com\nopCommerce\qa\pages\ManufacturersPage.class
+com\nopCommerce\qa\TestBase\TestBase.class
+com\nopCommerce\qa\pages\ProductsPage.class
+com\nopCommerce\qa\pages\CategoriesPage.class
+com\nopCommerce\qa\pages\HomePage.class
+com\nopCommerce\qa\pages\AddNewSpecification.class
+com\nopCommerce\qa\pages\SpecAttributesPage.class
+com\nopCommerce\qa\pages\CheckOutAttributesPage.class
+com\nopCommerce\qa\pages\LoginPage.class
+com\nopCommerce\qa\pages\ProductReviewsPage.class
+com\nopCommerce\qa\listeners\Listeners.class
+com\nopCommerce\qa\pages\CatalogsPage.class
+com\nopCommerce\qa\pages\AttributesPage.class
+com\nopCommerce\qa\pages\ProductAttributesPage.class
+com\nopCommerce\qa\pages\ProductTagsPage.class
+com\nopCommerce\qa\pages\AddNewAttributePage.class

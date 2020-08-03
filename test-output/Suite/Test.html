@@ -1,0 +1,274 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 21 13:46:30 CDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>455 seconds (455318 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.SpecAttributesPageTest.SpecAttributesPageTitleTest()'><b>SpecAttributesPageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.SpecAttributesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.SpecAttributesPageTest@614c5515</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.AddNewAttributePageTest.addNewAttributePageTitleTest()'><b>addNewAttributePageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.AddNewAttributePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.AddNewAttributePageTest@3f2a3a5</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.AttributesPageTest.attributesPageTitleTest()'><b>attributesPageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.AttributesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.AttributesPageTest@60addb54</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.AttributesPageTest.checkhDDCheckBoxTest()'><b>checkhDDCheckBoxTest</b><br>Test class: nopCommerceTestNG.qa.testcases.AttributesPageTest</td>
+<td></td>
+<td>5</td>
+<td>nopCommerceTestNG.qa.testcases.AttributesPageTest@60addb54</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.cickHelpTest()'><b>cickHelpTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.AttributesPageTest.clickAddNewTest()'><b>clickAddNewTest</b><br>Test class: nopCommerceTestNG.qa.testcases.AttributesPageTest</td>
+<td></td>
+<td>1</td>
+<td>nopCommerceTestNG.qa.testcases.AttributesPageTest@60addb54</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.clickCatalogTest()'><b>clickCatalogTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.clickCmanagementTest()'><b>clickCmanagementTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.clickConfiguratioinsTest()'><b>clickConfiguratioinsTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.clickCustomersTest()'><b>clickCustomersTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.LoginPageTest.clickLoginPageTest()'><b>clickLoginPageTest</b><br>Test class: nopCommerceTestNG.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>nopCommerceTestNG.qa.testcases.LoginPageTest@5315b42e</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.clickPromotionsTest()'><b>clickPromotionsTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.clickReportsTest()'><b>clickReportsTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.clickSalesTest()'><b>clickSalesTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.clickSystemTest()'><b>clickSystemTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.AttributesPageTest.deleteSelectedTest()'><b>deleteSelectedTest</b><br>Test class: nopCommerceTestNG.qa.testcases.AttributesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.AttributesPageTest@60addb54</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.HomePageTest.homePageTitleTest()'><b>homePageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.HomePageTest@62043840</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.AttributesPageTest.labelTest()'><b>labelTest</b><br>Test class: nopCommerceTestNG.qa.testcases.AttributesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.AttributesPageTest@60addb54</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.LoginPageTest.loginPageTitle()'><b>loginPageTitle</b><br>Test class: nopCommerceTestNG.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.LoginPageTest@5315b42e</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ManufacturersPageTest.manufacturersPageTitleTest()'><b>manufacturersPageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ManufacturersPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ManufacturersPageTest@1e67b872</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductReviewsPageTest.productReviewsPageTitleTest()'><b>productReviewsPageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductReviewsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductReviewsPageTest@4cb2c100</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductTagsPageTest.productTagsPageTitleTest()'><b>productTagsPageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductTagsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductTagsPageTest@6fb554cc</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductsPageTest.productsPageTitleTest()'><b>productsPageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductsPageTest@2ef9b8bc</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.CategoriesPageTest.searchAllCategoriesTest()'><b>searchAllCategoriesTest</b><br>Test class: nopCommerceTestNG.qa.testcases.CategoriesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.CategoriesPageTest@5d624da6</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductReviewsPageTest.searchAllProductReviewsTest()'><b>searchAllProductReviewsTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductReviewsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductReviewsPageTest@4cb2c100</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ManufacturersPageTest.searchAllTest()'><b>searchAllTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ManufacturersPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ManufacturersPageTest@1e67b872</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductReviewsPageTest.searchApprovedOnlyTest()'><b>searchApprovedOnlyTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductReviewsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductReviewsPageTest@4cb2c100</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductReviewsPageTest.searchDisapprovedOnlyTest()'><b>searchDisapprovedOnlyTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductReviewsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductReviewsPageTest@4cb2c100</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductReviewsPageTest.searchProductReviewsTest()'><b>searchProductReviewsTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductReviewsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductReviewsPageTest@4cb2c100</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductsPageTest.searchProductsTest()'><b>searchProductsTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductsPageTest@2ef9b8bc</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.CategoriesPageTest.searchPublishOnlyTest()'><b>searchPublishOnlyTest</b><br>Test class: nopCommerceTestNG.qa.testcases.CategoriesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.CategoriesPageTest@5d624da6</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ManufacturersPageTest.searchPublishedOnlyTest()'><b>searchPublishedOnlyTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ManufacturersPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ManufacturersPageTest@1e67b872</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductTagsPageTest.searchTagsTest()'><b>searchTagsTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductTagsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductTagsPageTest@6fb554cc</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ManufacturersPageTest.searchUnpublishedOnlyTest()'><b>searchUnpublishedOnlyTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ManufacturersPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ManufacturersPageTest@1e67b872</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.CategoriesPageTest.searhUnpublishedOnly()'><b>searhUnpublishedOnly</b><br>Test class: nopCommerceTestNG.qa.testcases.CategoriesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.CategoriesPageTest@5d624da6</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.SpecAttributesPageTest.specLabelTest()'><b>specLabelTest</b><br>Test class: nopCommerceTestNG.qa.testcases.SpecAttributesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.SpecAttributesPageTest@614c5515</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.ProductTagsPageTest.verifyLabelTest()'><b>verifyLabelTest</b><br>Test class: nopCommerceTestNG.qa.testcases.ProductTagsPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.ProductTagsPageTest@6fb554cc</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.AttributesPageTest.verifyMessageTest()'><b>verifyMessageTest</b><br>Test class: nopCommerceTestNG.qa.testcases.AttributesPageTest</td>
+<td></td>
+<td>7</td>
+<td>nopCommerceTestNG.qa.testcases.AttributesPageTest@60addb54</td></tr>
+<tr>
+<td title='nopCommerceTestNG.qa.testcases.CategoriesPageTest.verifyPageTitleTest()'><b>verifyPageTitleTest</b><br>Test class: nopCommerceTestNG.qa.testcases.CategoriesPageTest</td>
+<td></td>
+<td>0</td>
+<td>nopCommerceTestNG.qa.testcases.CategoriesPageTest@5d624da6</td></tr>
+</table><p>
+</body>
+</html>
